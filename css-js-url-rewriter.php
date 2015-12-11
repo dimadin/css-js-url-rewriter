@@ -156,6 +156,7 @@ class CSS_JS_URL_Rewriter {
 		$this->load_textdomain();
 
 		// Add new links
+		$links['settings'] = '<a href="' . admin_url( 'options-general.php' ) . '">' . __( 'Settings', 'css-js-url-rewriter' ) . '</a>';
 		$links['donate']   = '<a href="http://blog.milandinic.com/donate/">' . __( 'Donate', 'css-js-url-rewriter' ) . '</a>';
 		$links['wpdev']    = '<a href="http://blog.milandinic.com/wordpress/custom-development/">' . __( 'WordPress Developer', 'css-js-url-rewriter' ) . '</a>';
 		$links['premiums'] = '<strong><a href="https://shop.milandinic.com/">' . __( 'Premium WordPress Plugins', 'css-js-url-rewriter' ) . '</a></strong>';
