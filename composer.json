@@ -1,0 +1,22 @@
+{
+	"name": "dimadin/css-js-url-rewriter",
+	"description": "Rewrite URLs of CSS and JavaScript files to use CDN.",
+	"keywords": ["cdn"],
+	"type": "wordpress-plugin",
+	"homepage": "http://blog.milandinic.com/wordpress/plugins/css-js-url-rewriter/",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Milan Dinić",
+			"email": "milan@srpski.biz",
+			"homepage": "http://blog.milandinic.com/"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/dimadin/css-js-url-rewriter/issues",
+		"source": "https://github.com/dimadin/css-js-url-rewriter"
+	},
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
