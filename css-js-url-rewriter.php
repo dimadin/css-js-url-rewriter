@@ -62,7 +62,7 @@ class CSS_JS_URL_Rewriter {
 
 	/**
 	 * Set class properties and add main methods to appropriate hooks.
-	 * 
+	 *
 	 * @since 1.0
 	 * @access public
 	 */
